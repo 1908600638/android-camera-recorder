@@ -1,0 +1,26 @@
+apply plugin: 'com.android.library'
+
+android {
+
+    compileSdk 33
+    defaultConfig {
+        minSdkVersion 24
+        targetSdkVersion 33
+        versionCode 3
+        versionName "1.0"
+        consumerProguardFiles 'proguard-rules.pro'
+        buildConfigField 'boolean', 'MEDIA_DEBUG', 'false'
+    }
+    buildTypes {
+        release {
+//            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'library.pro'
+        }
+    }
+}
+
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+}

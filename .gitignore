@@ -1,0 +1,29 @@
+# ---- Gradle 构建产物 ----
+.gradle/
+build/
+app/build/
+videolib/build/
+captures/
+output.json
+
+# ---- IDE ----
+.idea/
+*.iml
+.externalNativeBuild
+.cxx
+
+# ---- 本地配置 ----
+local.properties
+
+# ---- 打包产物 ----
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# ---- 系统 ----
+.DS_Store
+Thumbs.db
+
+# ---- 日志 ----
+*.log

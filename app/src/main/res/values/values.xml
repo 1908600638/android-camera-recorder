@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="default_has_core_menu">true</bool>
+    <bool name="default_is_draw_line_to_center">false</bool>
+    <color name="default_core_menu_normal_background_color">#ffffffff</color>
+    <color name="default_core_menu_selected_background_color">#ff888888</color>
+    <color name="default_core_menu_stroke_color">#ff666666</color>
+    <color name="default_round_menu_normal_background_color">#ffffffff</color>
+    <color name="default_round_menu_selected_background_color">#ff888888</color>
+    <color name="default_round_menu_stroke_color">#ff666666</color>
+    <dimen name="default_core_menu_round_radius">40sp</dimen>
+    <dimen name="default_core_menu_stroke_size">1px</dimen>
+    <dimen name="default_round_menu_stroke_size">1px</dimen>
+    <drawable name="default_core_menu_drawable">@drawable/def_icon</drawable>
+    <drawable name="default_round_menu_drawable">@drawable/right</drawable>
+    <fraction name="default_round_menu_distance">70%</fraction>
+    <integer name="default_round_menu_deviation_degree">0</integer>
+    <integer name="default_round_menu_number">4</integer>
+    <declare-styleable name="DLRoundMenuView">
+        <attr format="boolean" name="RMHasCoreMenu"/>
+        <attr format="color" name="RMCoreMenuNormalBackgroundColor"/>
+        <attr format="color" name="RMCoreMenuStrokeColor"/>
+        <attr format="dimension" name="RMCoreMenuStrokeSize"/>
+        <attr format="color" name="RMCoreMenuSelectedBackgroundColor"/>
+        <attr format="reference" name="RMCoreMenuDrawable"/>
+        <attr format="dimension" name="RMCoreMenuRoundRadius"/>
+        <attr format="integer" name="RMRoundMenuNumber"/>
+        <attr format="integer" name="RMRoundMenuDeviationDegree"/>
+        <attr format="reference" name="RMRoundMenuDrawable"/>
+        <attr format="boolean" name="RMIsDrawLineToCenter"/>
+        <attr format="color" name="RMRoundMenuNormalBackgroundColor"/>
+        <attr format="color" name="RMRoundMenuSelectedBackgroundColor"/>
+        <attr format="color" name="RMRoundMenuStrokeColor"/>
+        <attr format="dimension" name="RMRoundMenuStrokeSize"/>
+        <attr format="fraction" name="RMRoundMenuDistance"/>
+    </declare-styleable>
+</resources>
